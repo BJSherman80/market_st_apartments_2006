@@ -9,4 +9,8 @@ class Building
     @units << unit
   end
 
+  def add_renter(renter)
+    @renters << @unit[:renter]= (renter)
+  end
+
 end
