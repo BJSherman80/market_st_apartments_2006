@@ -3,7 +3,7 @@ require "minitest/pride"
 require './lib/renter'
 require './lib/apartment'
 
-class ApartmentTest < MiniTest::Test
+
 
   def test_there_is_a_unit
     unit1 = Apartment.new({number: "A1", monthly_rent: 1200, bathrooms: 1, bedrooms: 1})
